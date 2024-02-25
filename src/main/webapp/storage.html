@@ -2,9 +2,49 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Candy Shop Storage</title>
+	<style>
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+        }
+        button {
+            background-color: #ffcc00;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
+<div class="container">
+	<h1>Candy Shop Storage</h1>
+	<form>
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Enter product name">
 
+		<label for="amount">Amount:</label>
+		<input type="text" id="amount" name="amount" placeholder="Enter product amount">
+
+		<label for="password">Password:</label>
+		<input type="password" id="password" name="password" placeholder="Enter password">
+
+		<button type="submit">Add Products</button>
+	</form>
+</div>
 </body>
 </html>
